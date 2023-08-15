@@ -1,7 +1,8 @@
 require("tidyverse")
 require("ggridges")
 #load data
-data_fig1c <- read.csv("/Volumes/rollerb21/Data/Manuscripts/SteadyStateMass/_v2/PolzLabGitHub/Figure1c1f_SF2c/Fig1c1f_SF2c_1G07_1E2_Data_withMetadata.csv")
+#set the path in the line below to wherever you store the data locally
+data_fig1c <- read.csv("Fig1c1f_SF2c_1G07_1E2_Data_withMetadata.csv")
 head(data_fig1c)
 tail(data_fig1c)
 #
