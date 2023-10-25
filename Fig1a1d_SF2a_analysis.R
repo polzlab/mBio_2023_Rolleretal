@@ -3,7 +3,7 @@ require("ggridges")
 #load data
 #set the path in the line below to wherever you store the data locally
 #
-data_fig1a <- read.csv("/Volumes/rollerb21/Data/Manuscripts/SteadyStateMass/_v2/PolzLabGitHub/Figure1a1d_SF2a/Fig1a1d_SF2a_1G07_1E4_Data_withMetadata.csv")
+data_fig1a <- read.csv("Fig1a1d_SF2a_1G07_1E4_Data_withMetadata.csv")
 head(data_fig1a)
 tail(data_fig1a)
 #
